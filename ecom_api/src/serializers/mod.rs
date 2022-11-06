@@ -115,3 +115,15 @@ pub struct LoginRes {
     pub token: String,
     pub user: SUser,
 }
+
+
+#[derive(Deserialize)]
+pub struct IDReq {
+    pub id: String
+}
+
+#[derive(Serialize)]
+pub struct MinRes {
+    pub status: bool,
+    pub message: String,
+}
