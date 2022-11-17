@@ -3,7 +3,7 @@ use crate::serializers::{SCategory, SProduct, SAddress, SCart, SOrder, SUser};
 
 
 const MONGO_URI: &str =
-    "mongodb+srv://prabhat_7061:8tlgEn0IBub5liSP@cluster0.gltip.mongodb.net/ecomm";
+    "mongodb+srv://localhost/ecomm";
 
 pub struct Database {
     pub user_col: Collection<SUser>,
